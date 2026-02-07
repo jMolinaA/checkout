@@ -1,0 +1,50 @@
+[
+    {
+      "id": "PROMO-001",
+      "description": "10% de descuento en Mouse USB llevando 2 o más unidades",
+      "type": "percentage",
+      "sku": "SKU-002",
+      "minQty": 2,
+      "value": 0.1
+    },
+    {
+      "id": "PROMO-002",
+      "description": "$2.000 de descuento por unidad en Pendrive 64GB llevando 3 o más",
+      "type": "fixed",
+      "sku": "SKU-008",
+      "minQty": 3,
+      "value": 2000
+    },
+    {
+      "id": "PROMO-003",
+      "description": "15% de descuento en Audífonos Bluetooth llevando 2 o más unidades",
+      "type": "percentage",
+      "sku": "SKU-005",
+      "minQty": 2,
+      "value": 0.15
+    },
+    {
+      "id": "PROMO-004",
+      "description": "30% de descuento en Cable HDMI llevando 4 o más unidades",
+      "type": "percentage",
+      "sku": "SKU-014",
+      "minQty": 4,
+      "value": 0.3
+    },
+    {
+      "id": "PROMO-005",
+      "description": "$5.000 de descuento por unidad en Batería Externa llevando 2 o más",
+      "type": "fixed",
+      "sku": "SKU-030",
+      "minQty": 2,
+      "value": 5000
+    },
+    {
+      "id": "PROMO-006",
+      "description": "10% de descuento en Smartwatch llevando 2 o más unidades",
+      "type": "percentage",
+      "sku": "SKU-029",
+      "minQty": 2,
+      "value": 0.1
+    }
+  ]

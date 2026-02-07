@@ -1,0 +1,31 @@
+[
+    {
+        "id": "DISC-001",
+        "description": "10% descuento Audífonos Bluetooth",
+        "type": "percentage",
+        "value": 0.1,
+        "applies_to": ["SKU-005"]
+    },
+    {
+        "id": "DISC-002",
+        "description": "$5.000 descuento Mouse USB",
+        "type": "fixed",
+        "value": 5000,
+        "applies_to": ["SKU-002"]
+    },
+    {
+        "id": "DISC-003",
+        "description": "15% descuento Monitor 24 pulgadas",
+        "type": "percentage",
+        "value": 0.15,
+        "applies_to": ["SKU-004"]
+    },
+    {
+        "id": "DISC-004",
+        "description": "20% descuento Parlantes Bluetooth",
+        "type": "percentage",
+        "value": 0.2,
+        "applies_to": ["SKU-018"]
+    }
+]
+
