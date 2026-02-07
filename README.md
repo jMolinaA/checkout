@@ -14,13 +14,25 @@ Proyecto Java basado en **Spring Boot** que expone una API REST para calcular el
 
 ---
 
-## Instrucciones
+## Instrucciones Windows
 
-# Compilar el proyecto
+### Compilar el proyecto
 `./mvnw clean install`
 
-# Ejecutar la aplicación
+### Ejecutar la aplicación
 `./mvnw spring-boot:run`
+
+## Instrucciones MacOS/Linux
+
+### Dar permisos al wrapper
+`chmod +x mvnw`
+
+### Compilar el proyecto
+`./mvnw clean install`
+
+### Ejecutar la aplicación
+`./mvnw spring-boot:run`
+
 
 ## Ejemplo de request
 
