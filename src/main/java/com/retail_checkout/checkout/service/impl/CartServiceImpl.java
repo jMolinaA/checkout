@@ -52,7 +52,7 @@ public class CartServiceImpl implements ICartService {
                 if (discount.type().equals("percentage")) {
                     discountPrice = productTotal.multiply(discount.value());
                 } else {
-                    discountPrice = discount.value().multiply(new BigDecimal(item.quantity()));
+                    discountPrice = productTotal.subtract(discount.value().multiply(new BigDecimal(item.quantity())));
                 }
                 productsDiscounts.add(new DiscountDTO(discount.id(), discount.description(), discountPrice));
             }
@@ -66,7 +66,7 @@ public class CartServiceImpl implements ICartService {
                     if (promotion.type().equals("percentage")) {
                         discountPrice = productTotal.multiply(promotion.value());
                     } else {
-                        discountPrice = promotion.value().multiply(new BigDecimal(item.quantity()));
+                        discountPrice = productTotal.subtract(promotion.value().multiply(new BigDecimal(item.quantity())));
                     }
                     productsDiscounts.add(new DiscountDTO(promotion.id(), promotion.description(), discountPrice));
                 }
